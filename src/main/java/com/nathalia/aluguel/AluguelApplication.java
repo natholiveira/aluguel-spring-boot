@@ -7,9 +7,9 @@ import org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration;
 
 @SpringBootApplication
 @EnableAutoConfiguration(exclude = { JacksonAutoConfiguration.class })
-public class CartorioApplication {
+public class AluguelApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(CartorioApplication.class, args);
+		SpringApplication.run(AluguelApplication.class, args);
 	}
 }

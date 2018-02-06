@@ -1,4 +1,4 @@
-package com.nathalia.cartorio;
+package com.nathalia.aluguel;
 
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertNotNull;
@@ -16,7 +16,7 @@ import com.nathalia.aluguel.repository.CarroRepository;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class CartorioApplicationTests {
+public class AluguelApplicationTests {
 	
 	@Autowired
 	private CarroRepository carroRepository;
